@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color:blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Header Styles */
+header {
+    padding: 5px 5px 5px 5px;
+    background-image: url("https://i.pinimg.com/originals/ac/cf/7e/accf7e527103653911a01ab71d102255.jpg")
+    
+}
+
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #b9ceba;
+    margin: 0;
+    display: inline;
+  }
+
+  header h1 a {
+    padding: 5px 5px 5px 5px; 
+    
+  }
+
+  header a {
+    color: rgba(251, 251, 251, 0.849);
+  }
+
+  header nav {
+    float: right;
+    margin: -40px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: whitesmoke;
+  }
+
+  /* About Me Section */
+
+  .hero  {
+    background-image: url("https://wallup.net/wp-content/uploads/1413914348-748x468.jpg");
+    height: 300px;
+    
+  }
+  
+  .hero-header {
+    text-align: right;
+    font-size: large;
+    padding: 200px 650px 0px 350px;
+  }
+  
+  .about {
+  background-color: blanchedalmond;
+  
+  
+  }
+
+  .about-header {
+    text-align: left;
+    font-size: 45px;
+    display: block;
+    color: rgb(67, 65, 65);
+    padding: 50px 10px 10px 150px;
+  }
+
+  .about-me {
+    font-size: 24px;
+    padding: 10px 10px 150px 200px;
+    color:rgb(67, 65, 65);
+    text-align: center;
+
+  }
+
+  /* Work Section */
+
+  .work-section {
+    background-color: rgb(59, 71, 87);
+  }
+
+  .work-header {
+    text-align: left;
+    font-size: 35px;
+    display: block;
+    color: rgb(14, 13, 13);
+    padding: 10px 10px 10px 150px;
+  }
+
+  .image-table {
+    height: 100px;
+    text-align: right;
+  }
+
+  
+/* Contact Section */
+.contact {
+  background-image: url("https://i.pinimg.com/originals/ac/cf/7e/accf7e527103653911a01ab71d102255.jpg")
+}
+
+.contact-header {
+  text-align: left;
+  font-size: 35px;
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 150px;
+  display: inline-flex
+
+}
+
+.contact-nav {
+  float: right;
+  margin: 60px 200px 50px 0;
+}
+
+.contact-nav ul li {
+  display: inline;
+
+}
+
+.contact-nav ul li a {
+  margin: 75px 50px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+ 
+  
+
+
+
+
+ 
+
+ 
+
+  
+
+  
+
+  
